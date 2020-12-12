@@ -2,9 +2,6 @@ name: Preview deploys
 
 on:
   pull_request:
-    # Optionally configure to run only for specific files. For example:
-    # paths:
-    # - "website/**"
 
 jobs:
   build_and_preview:
